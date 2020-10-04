@@ -1,0 +1,7 @@
+D:\4KNU\5 Курс\Sem 1\WS Cryprt\P1 AES\AES1\obj\Debug\AES1.csprojAssemblyReference.cache
+D:\4KNU\5 Курс\Sem 1\WS Cryprt\P1 AES\AES1\obj\Debug\AES1.csproj.CoreCompileInputs.cache
+D:\4KNU\5 Курс\Sem 1\WS Cryprt\P1 AES\AES1\bin\Debug\AES1.exe.config
+D:\4KNU\5 Курс\Sem 1\WS Cryprt\P1 AES\AES1\bin\Debug\AES1.exe
+D:\4KNU\5 Курс\Sem 1\WS Cryprt\P1 AES\AES1\bin\Debug\AES1.pdb
+D:\4KNU\5 Курс\Sem 1\WS Cryprt\P1 AES\AES1\obj\Debug\AES1.exe
+D:\4KNU\5 Курс\Sem 1\WS Cryprt\P1 AES\AES1\obj\Debug\AES1.pdb
