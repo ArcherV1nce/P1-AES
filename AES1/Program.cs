@@ -13,18 +13,30 @@ namespace AES1
 {
     class Program
     {
-        private AES128 aES128 = new AES128();
+        //private AES128 aES128 = new AES128();
         static void Main(string[] args)
         {
-            AES128 aES = new AES128();
-            aES.GetFileDir();
-            aES.AES_Encrypt("D:\\4KNU\\EnctTest\\Test\\1551550075_6e5750a39125034c.gif", "123");
-            aES.AES_Decrypt("D:\\4KNU\\EnctTest\\Test\\1551550075_6e5750a39125034c.gif.aes", "123");
+            string pass = "1001001010101010101";
+            pass = Console.ReadLine();
+            byte[] b_pass = Encoding.ASCII.GetBytes(pass);
+            byte[] b_source = Encoding.ASCII.GetBytes("Test");
+            AES128 aES128 = new AES128();
+            aES128.Encrypt(b_source, ref b_pass);
+            Console.WriteLine(Encoding.ASCII.GetString(b_source));
+            aES128.Decrypt(b_source, ref b_pass);
+            Console.WriteLine(Encoding.ASCII.GetString(b_source));
+            Console.ReadLine();
+            #region Не подходит Main
+            //AES128 aES = new AES128();
+            //aES.GetFileDir();
+            //aES.AES_Encrypt("D:\\4KNU\\EnctTest\\Test\\1551550075_6e5750a39125034c.gif", "123");
+            //aES.AES_Decrypt("D:\\4KNU\\EnctTest\\Test\\1551550075_6e5750a39125034c.gif.aes", "123");
+            #endregion
         }
     }
 
-
-
+    #region Не подходит AES 128
+    /*
     class AES128
     {
         private string fileDirectory;
@@ -176,5 +188,7 @@ namespace AES1
 
 
     }
-    
+    */
+    #endregion
+
 }
